@@ -5,35 +5,29 @@ NGA原帖：https://bbs.nga.cn/read.php?&tid=25004616
 
 ## 功能
  - 自动抓包本机api请求
+ - 记录历史url，如果可用无需重新抓包
  - 导出抽卡记录为带格式的excel表格
- - 可选导出csv
+ - 展示抽卡报告
+ - 清除历史生成的excel表格
+ - 可选手动输入url
  - exe版无需fiddler和python环境
-
-## 其他信息
-
-<details>
-  <summary>这里不重要，除非你想改代码</summary>
-
-视频教程：https://www.bilibili.com/video/BV1qA411W7Lo/
-
-具体操作：
-
-- 用fiddler抓包获取类似`https://hk4e-api.mihoyo.com/event/gacha_info/api/getGachaLog?xxxxxx`的链接（右键-复制-仅复制网址）
-
-- 将链接填入`url`变量并运行
-
-
-卡池和物品数据：
-
-新版已改为自动从url获取，无需手动更新
-
-参数:
-
-| 参数名 | 注释 | 类型 |
-| ---- | ---- | ---- |
-| url | 填入含有getGachaLog的api | str |
-| FLAG_WRITE_CSV   | 是否写入CSV      | bool  |
-| FLAG_WRITE_XLS   | 是否写入EXCEL    | bool |
-| FLAG_SHOW_DETAIL | 是否展示详情     | bool |
-| FLAG_CLEAN       | 是否清除历史文件 | bool |
-</details>
+ 
+ 
+## 配置文件 config.json
+```
+{
+    "FLAG_CLEAN":true,
+    "FLAG_SHOW_REPORT":true,
+    "FLAG_WRITE_XLSX":true,
+    "FLAG_MANUAL_INPUT_URL":false,
+    "url":""
+}
+```
+| 配置名称              | 含义                   | 类型 | 默认值 |
+| --------------------- | ---------------------- | ---- | ------ |
+| FLAG_CLEAN            | 清除历史生成的excel表格 | bool | true   |
+| FLAG_SHOW_REPORT      | 展示抽卡报告           | bool | true   |
+| FLAG_WRITE_XLSX       | 生成抽卡记录excel表格 | bool | true   |
+| FLAG_MANUAL_INPUT_URL | 手动输入url            | bool | false  |
+| url                   | 抓包获取的getGachaLog  | str  |        |
+ 
