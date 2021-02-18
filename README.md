@@ -2,11 +2,10 @@
 
 NGA原帖：https://bbs.nga.cn/read.php?&tid=25004616  
 
-抽卡记录分析工具 from [@笑沐泽](https://bbs.nga.cn/read.php?tid=25004616&page=16#pid491033187Anchor)  
-https://voderl.github.io/genshin-gacha-analyzer/
+[抽卡记录分析工具](https://voderl.github.io/genshin-gacha-analyzer/) from [@笑沐泽](https://bbs.nga.cn/read.php?tid=25004616&page=16#pid491033187Anchor)  
 
-[[闲聊杂谈] 抽卡记录导出两键导出工具](https://bbs.nga.cn/read.php?tid=25559039) from [@lvlvl](https://bbs.nga.cn/nuke.php?func=ucp&uid=2260231)  
-https://github.com/biuuu/genshin-gacha-export
+[原神抽卡记录导出工具](https://github.com/biuuu/genshin-gacha-export) from [@lvlvl](https://bbs.nga.cn/read.php?tid=25559039) 
+
 
 抽卡记录导出工具js版 https://github.com/sunfkny/genshin-gacha-export-js  
 
