@@ -25,18 +25,13 @@ Tip: 1.3版本更新后api只能获取6个月历史记录
 
 
 ## 使用方法
+解压并运行 genshin-gacha-export.exe  
 - 读取日志文件模式：
-
     - 只需要最近打开过抽卡记录页面直接运行即可，无需运行游戏
-
-- 抓包模式：
-
-    - [视频教程](https://www.bilibili.com/video/BV1tr4y1K7Ea/)  
+- 抓包模式：  
     - **运行之前务必先关闭第三方代理、加速器否则会抓不到**
-    - 解压并运行 genshin-gacha-export.exe  
     - 打开游戏-祈愿-历史记录  
     - 等待程序获取数据生成表格和抽卡报告  
-
 
 ## 配置文件 config.json
 
