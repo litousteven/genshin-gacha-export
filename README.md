@@ -2,12 +2,7 @@
 
 NGA原帖：https://bbs.nga.cn/read.php?&tid=25004616  
 
-[抽卡记录分析工具](https://voderl.github.io/genshin-gacha-analyzer/) from [@笑沐泽](https://bbs.nga.cn/read.php?tid=25004616&page=16#pid491033187Anchor)  
-
-[原神抽卡记录导出工具](https://github.com/biuuu/genshin-gacha-export) from [@lvlvl](https://bbs.nga.cn/read.php?tid=25559039) 
-
-
-抽卡记录导出工具js版 https://github.com/sunfkny/genshin-gacha-export-js  
+注意：我的是python版，带饼图的是[隔壁electron版](https://bbs.nga.cn/read.php?tid=25559039)，功能类似  
 
 Tip: 1.3版本更新后api只能获取6个月历史记录
 
@@ -22,7 +17,11 @@ Tip: 1.3版本更新后api只能获取6个月历史记录
  - 可选手动输入url
  - exe版无需fiddler和python环境
 
-## 其他信息
+## 其他
+[抽卡记录分析工具](https://voderl.github.io/genshin-gacha-analyzer/) from [@笑沐泽](https://bbs.nga.cn/read.php?tid=25004616&page=16#pid491033187Anchor)  
+
+抽卡记录导出工具js版 https://github.com/sunfkny/genshin-gacha-export-js  
+
 [使用方法](https://github.com/sunfkny/genshin-gacha-export/wiki/%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
 
 [常见问题](https://github.com/sunfkny/genshin-gacha-export/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
