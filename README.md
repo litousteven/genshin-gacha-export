@@ -23,42 +23,12 @@ Tip: 1.3版本更新后api只能获取6个月历史记录
  - 可选手动输入url
  - exe版无需fiddler和python环境
 
+## 其他信息
+[使用方法](https://github.com/sunfkny/genshin-gacha-export/wiki/%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95)
 
-## 使用方法
-解压并运行 genshin-gacha-export.exe  
-- 读取日志文件模式：
-    - 只需要最近打开过抽卡记录页面直接运行即可，无需运行游戏
-- 抓包模式：  
-    - **运行之前务必先关闭第三方代理、加速器否则会抓不到**
-    - 打开游戏-祈愿-历史记录  
-    - 等待程序获取数据生成表格和抽卡报告  
+[常见问题](https://github.com/sunfkny/genshin-gacha-export/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
 
-## 配置文件 config.json
+[更新日志](https://github.com/sunfkny/genshin-gacha-export/wiki/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97)
 
-```
-{
-    "FLAG_CLEAN":false,
-    "FLAG_MANUAL_INPUT_URL":false,
-    "FLAG_SHOW_REPORT":true,
-    "FLAG_USE_LOG_URL":true,
-    "FLAG_USE_CONFIG_URL":true,
-    "FLAG_WRITE_XLSX":true,
-    "FLAG_USE_CAPTURE":true,
-    "url":""
-}
-```
-| 配置名称              | 含义                   | 类型 | 默认值 |
-| --------------------- | ---------------------- | ---- | ------ |
-| FLAG_CLEAN            | 清除历史生成的excel表格 | bool | false   |
-| FLAG_MANUAL_INPUT_URL | 手动输入url            | bool | false  |
-| FLAG_SHOW_REPORT      | 展示抽卡报告           | bool | true   |
-| FLAG_WRITE_XLSX       | 生成抽卡记录excel表格 | bool |  true  |
-| FLAG_USE_LOG_URL       | 使用原神客户端日志中的url | bool |  true  |
-| FLAG_USE_CONFIG_URL       | 使用配置文件缓存的历史url | bool |  true  |
-| FLAG_USE_CAPTURE       | 抓包功能 | bool |  true  |
-| url                   | 包含getGachaLog的url  | str  |        |
+[配置文件](https://github.com/sunfkny/genshin-gacha-export/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
 
-
-## 更新日志
-
-https://github.com/sunfkny/genshin-gacha-export/wiki/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97
